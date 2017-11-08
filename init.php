@@ -3,4 +3,4 @@
     ->usePackage('larakit/sf-angular')
     ->setSourceDir('public')
     ->jsPackage('ya-map-2.1.min.js');
-\Larakit\NgAdminlte\LkNg::moduleRegister('yaMap');
+\Larakit\LkNgModule::register('yaMap');
